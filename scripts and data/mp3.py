@@ -10,6 +10,7 @@ def make_mp3_analysisfb(h: np.ndarray, M: int) -> np.ndarray:
 		phas_i = -(2 * i - 1) * np.pi / 4.0
 		tmp = np.cos(freq_i * n + phas_i)
 		x = np.multiply(h, tmp)
+        print(f'tmp.size : {tmp.size} | h.size : {h.size}'
 		H[:, i - 1] = x
 	return H
 
