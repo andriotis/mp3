@@ -1,5 +1,0 @@
-Y : NxM 
-    N = # of samples per band
-    M = # of filters
-    Thus, 
-        each column is a band with samples
